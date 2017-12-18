@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+<style>
+
+body {
+  background-image: url("mountains.jpg");
+  background-size:cover;
+}
+svg {
+  position: absolute;
+  top: 350px;
+  left: 600px;
+
+}
+
+</style>
+
+
+    </head>
+    <body>
+      <script type="text/javascript">
+      function onSubmit() {
+      if (document.getElementById('password').value == '*****') {window.location.href = "C3.html"; }else{ alert('Incorrect');}
+      }
+      </script>
+
+      <fieldset><form>
+      <div>
+              <label>Enter your passcode</label>
+              <input type="password" maxlength="5"  id = "password"    placeholder="stars" required/>
+
+      </div>
+      </form></fieldset>
+      <button id = btn  onclick="onSubmit()">Enter</button>
+
+      </script>
+
+          </div>
+
+      </div>
+      <a href = "boxes.html">
+      <svg height="100" width="100">
+  <circle cx="4" cy="4" r="2" fill="red" />
+</svg>
+</a>
+
+
+    </body>
+</html>

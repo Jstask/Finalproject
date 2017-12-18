@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+
+
+        body{
+  position:fixed;
+   background-image: url("words.png");
+  animation:50s scroll infinite linear;
+  top:0;
+  left:0;
+  width:100%;
+ height:100%;
+}
+@keyframes scroll{
+  100%{
+    background-position: 3000px 3000px;
+  }
+}
+        </style>
+
+    </head>
+    <body>
+      <script type="text/javascript">
+      function onSubmit() {
+      if (document.getElementById('password').value == 'Help') {window.location.href = "end.html"; }else{ alert('Incorrect');}
+      }
+      </script>
+
+      <fieldset><form>
+      <div>
+              <label>Enter your passcode</label>
+              <input type="password" maxlength="5"  id = "password"    placeholder="pg>#=order>letter" required/>
+
+      </div>
+      </form></fieldset>
+      <button id = btn  onclick="onSubmit()">Enter</button>
+
+      </script>
+
+          </div>
+
+      </div>
+
+
+
+    </body>
+</html>

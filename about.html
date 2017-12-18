@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+
+        body {
+          background-image: url("colors.gif");
+          background-size:cover;
+
+        }
+        p {
+          color: white;
+          position: fixed;
+          text-align: center;
+          top: 200px;
+        text-shadow:
+        -1px -1px 0 black,
+        1px -1px 0 black,
+        -1px 1px 0 black,
+        1px 1px 0 black;
+             }
+
+        </style>
+
+    </head>
+    <body>
+      <script>
+function myText() {
+    document.getElementById("myP").style.fontSize = Math.floor((Math.random() * 25) + 15)+"px";
+    window.setInterval(myText, 2000);
+}
+window.onload = myText;
+</script>
+
+      <p id="myP"> Nick Staskauskas made this. Its a website that you can go through
+         using a computer which is a piece of technology that was probably
+          invented before you were born. You can use a mouse to operate the
+           website but not a keyboard to operate the controls, if you do not
+           have a keyboard please use the mouse unless you have a keyboard in
+           which case use the mouse.</p>
+
+
+    </body>
+</html>
